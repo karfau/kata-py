@@ -17,3 +17,6 @@ and
     py.test test
     
 Have fun.
+
+To point your IDE or toolchain to the virtual env:
+it is located inside `.venv` inside the project after executing setup.sh
