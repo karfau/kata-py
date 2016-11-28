@@ -1,7 +1,7 @@
 
-With some python2 installed run
+With some python2 and virtualenv installed run
 
-    ./setup.py
+    ./setup.sh
     
 to work on the project using CLI run
 
@@ -16,7 +16,7 @@ and
     
     py.test test
     
-Have fun.
-
 To point your IDE or toolchain to the virtual env:
-it is located inside `.venv` inside the project after executing setup.sh
+it is located inside `.venv` after executing `setup.sh`
+
+Have fun.
