@@ -1,5 +1,6 @@
 #!python
 
+
 def main():
     return "returned from main"
 
