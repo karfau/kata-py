@@ -2,3 +2,4 @@ kata-py.iml
 .idea
 .venv
 .cache
+test/__pycache__
