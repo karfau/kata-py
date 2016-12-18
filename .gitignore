@@ -3,3 +3,6 @@ kata-py.iml
 .venv
 .cache
 test/__pycache__
+
+# file extension for data thaat should ot go into version control
+*.data
