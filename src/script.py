@@ -2,13 +2,15 @@
 
 
 def main(*args):
-    return "returned from main"
+    return args[0]
 
 if __name__ == '__main__':
     import sys
-    print "provided arguments:", sys.argv
     if len(sys.argv) > 1:
-        print main(sys.argv[1:])
+        # arguments win over std in, pass all but the first one to main
+        print "provided arguments:", sys.argv
+        print main(*sys.argv[1:])
     else:
         for line in sys.stdin:
-            print main(line.split(', '))
+            # pass every line from stdin as space separated arguments
+            print main(*line.split())
