@@ -4,5 +4,6 @@ kata-py.iml
 .cache
 test/__pycache__
 
-# file extension for data thaat should ot go into version control
+# file extension for data that should ot go into version control
 *.data
+*.pyc
